@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product-if-exists, vendor/cm/config/common_full_tablet_wifionly.mk)
-
+# Inherit some common slim stuff.
+$(call inherit-product-if-exists, vendor/slim/config/common_full_tablet_wifionly.mk)
+$(call inherit-product-if-exists, vendor/slim/config/common.mk)
 #TARGET_SCREEN_WIDTH := 600
 TARGET_SCREEN_WIDTH := 480
 TARGET_SCREEN_HEIGHT := 1024
